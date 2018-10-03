@@ -1,3 +1,4 @@
+
 const getUserChoice = userInput => {
   userInput = userInput.toLowerCase();
  if( userInput === 'rock' || userInput === 'paper' || userInput === 'scissors'|| userInput === 'bomb') {
@@ -58,6 +59,8 @@ const playGame = () => {
 console.log(determineWinner(userChoice, computerChoice));
 };
 playGame();
+
+
 
 
  
