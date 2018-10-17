@@ -1,0 +1,57 @@
+var pasta = "Spaghetti"; // ES5 syntax
+
+const meat = "Pancetta"; // ES6 syntax
+
+let sauce = "Eggs and cheese"; // ES6 syntax
+
+// Template literals, like the one below, were introduced in ES6
+const carbonara = `You can make carbonara with ${pasta}, ${meat}, and a sauce made with ${sauce}.`;
+
+https://caniuse.com/#search=Template
+
+// Set the variable below to a number
+let esFivePercentageSupport = 96;
+
+// Set the variable below to a number
+let esSixTemplateLiterals = 88;
+
+var pasta = "Spaghetti"; // ES5 syntax
+
+var meat = "Pancetta"; // ES6 syntax
+
+var sauce = "Eggs and cheese"; // ES6 syntax
+
+// Template literals, like the one below, were introduced in ES6
+var carbonara = 'You can make carbonara with' + pasta + meat + 'and a sauce made with' + sauce;
+
+Install Babel with the following commands - 
+npm install babel-cli
+npm install babel-preset-en
+npm run build
+
+ls - command to see file structure
+npm init- create package.json file
+
+npm install babel-cli -D
+npm install babel-present-env -D
+
+touch .babelrc
+
+{
+  "presets": ["env"]
+}
+
+package.json
+{
+  "name": "learn-javascript-transpilation-bct-npm-init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", "build": "babel src -d lib"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+npm run build
